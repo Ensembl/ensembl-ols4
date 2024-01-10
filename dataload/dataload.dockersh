@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo Loading data...
-./create_datafiles.sh file:///mnt/config.json /tmp/out $@
+#./create_datafiles.sh file:///mnt/config.json /tmp/out $@
+./create_datafiles.sh $@
 ./load_into_neo4j.sh /opt/neo4j /tmp/out
 rm -rf /opt/solr/server/solr/*
 cp -r /opt/dataload/solr_config/* /opt/solr/server/solr/
@@ -9,6 +10,4 @@ cp -r /opt/dataload/solr_config/* /opt/solr/server/solr/
 ./create_neo4j_indexes.sh /opt/neo4j
 chmod -R 777 /opt/solr
 chmod -R 777 /opt/neo4j
-
-
 

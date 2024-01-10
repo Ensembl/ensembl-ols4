@@ -38,6 +38,4 @@ RUN mkdir /tmp/out
 
 WORKDIR /opt/dataload
 
-CMD ./dataload.dockersh
-
-
+#CMD ./dataload.dockersh

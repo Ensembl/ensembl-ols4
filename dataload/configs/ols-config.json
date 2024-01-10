@@ -1,0 +1,438 @@
+{
+  "ontologies": [
+    {
+      "activity_status": "inactive",
+      "build": {
+        "method": "owl2obo",
+        "source_url": "http://purl.obolibrary.org/obo/aero.owl"
+      },
+      "contact": {
+        "email": "mcourtot@gmail.com",
+        "label": "Melanie Courtot",
+        "orcid": "0000-0002-9551-6370"
+      },
+      "description": "The Adverse Event Reporting Ontology (AERO) is an ontology aimed at supporting clinicians at the time of data entry, increasing quality and accuracy of reported adverse events",
+      "domain": "health",
+      "homepage": "http://purl.obolibrary.org/obo/aero",
+      "id": "aero",
+      "is_obsolete": true,
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 3.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "http://creativecommons.org/licenses/by/3.0/"
+      },
+      "products": [
+        {
+          "id": "aero.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/aero.owl"
+        }
+      ],
+      "title": "Adverse Event Reporting Ontology"
+    },
+    {
+      "activity_status": "active",
+      "browsers": [
+        {
+          "label": "BioPortal",
+          "title": "BioPortal Browser",
+          "url": "http://bioportal.bioontology.org/ontologies/BFO?p=classes"
+        }
+      ],
+      "contact": {
+        "email": "phismith@buffalo.edu",
+        "github": "phismith",
+        "label": "Barry Smith",
+        "orcid": "0000-0003-1384-116X"
+      },
+      "depicted_by": "https://avatars2.githubusercontent.com/u/12972134?v=3&s=200",
+      "description": "The upper level ontology upon which OBO Foundry ontologies are built.",
+      "domain": "upper",
+      "homepage": "http://ifomis.org/bfo/",
+      "id": "bfo",
+      "in_foundry_order": 1,
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 4.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "mailing_list": "https://groups.google.com/forum/#!forum/bfo-discuss",
+      "ontology_purl": "http://purl.obolibrary.org/obo/bfo.owl",
+      "preferredPrefix": "BFO",
+      "products": [
+        {
+          "id": "bfo.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/bfo.owl"
+        },
+        {
+          "id": "bfo.obo",
+          "ontology_purl": "http://purl.obolibrary.org/obo/bfo.obo"
+        }
+      ],
+      "repository": "https://github.com/BFO-ontology/BFO",
+      "review": {
+        "date": 2016,
+        "document": {
+          "label": "PDF",
+          "link": "https://drive.google.com/open?id=0B81h9ah4tAM_RnNTRUZnVGRyWXM"
+        }
+      },
+      "title": "Basic Formal Ontology",
+      "tracker": "https://github.com/BFO-ontology/BFO/issues",
+      "usages": [
+        {
+          "description": "BFO is imported by multiple OBO ontologies to standardize upper level structure",
+          "type": "owl_import",
+          "user": "http://obofoundry.org"
+        }
+      ]
+    },
+    {
+      "activity_status": "inactive",
+      "build": {
+        "method": "obo2owl",
+        "source_url": "https://github.com/Planteome/plant-environment-ontology/blob/master/plant-environment-ontology.obo.owl"
+      },
+      "contact": {
+        "email": "jaiswalp@science.oregonstate.edu",
+        "github": "jaiswalp",
+        "label": "Pankaj Jaiswal",
+        "orcid": "0000-0002-1005-8383"
+      },
+      "depicted_by": "http://planteome.org/sites/default/files/garland_logo.PNG",
+      "description": "A structured, controlled vocabulary which describes the treatments, growing conditions, and/or study types used in plant biology experiments.",
+      "domain": "environment",
+      "homepage": "http://planteome.org/",
+      "id": "eo",
+      "is_obsolete": true,
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 4.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "page": "http://browser.planteome.org/amigo/term/EO:0007359",
+      "products": [
+        {
+          "id": "eo.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/eo.owl"
+        },
+        {
+          "id": "eo.obo",
+          "ontology_purl": "http://purl.obolibrary.org/obo/eo.obo"
+        }
+      ],
+      "publications": [
+        {
+          "id": "https://www.ncbi.nlm.nih.gov/pubmed/22847540",
+          "title": "Ontologies as integrative tools for plant science."
+        }
+      ],
+      "replaced_by": "peco",
+      "repository": "https://github.com/Planteome/plant-environment-ontology",
+      "title": "Plant Environment Ontology",
+      "tracker": "https://github.com/Planteome/plant-environment-ontology/issues",
+      "usages": [
+        {
+          "description": "Planteome uses EO to describe traits for genes and germplasm",
+          "examples": [
+            {
+              "description": "Genes and proteins annotated to cold temperature regiment",
+              "url": "http://browser.planteome.org/amigo/term/EO:0007174"
+            }
+          ],
+          "user": "http://planteome.org/"
+        },
+        {
+          "description": "Gramene uses EO for the annotation of plant genes and QTLs",
+          "examples": [
+            {
+              "description": "Gramene annotations to cold temperature regiment",
+              "url": "http://archive.gramene.org/db/ontology/search?id=EO:0007174"
+            }
+          ],
+          "user": "http://gramene.org/"
+        }
+      ]
+    },
+    {
+      "activity_status": "active",
+      "build": {
+        "checkout": "git clone https://github.com/EBISPOT/duo.git",
+        "path": ".",
+        "system": "git"
+      },
+      "contact": {
+        "email": "mcourtot@gmail.com",
+        "github": "mcourtot",
+        "label": "Melanie Courtot",
+        "orcid": "0000-0002-9551-6370"
+      },
+      "dependencies": [
+        {
+          "id": "bfo"
+        },
+        {
+          "id": "iao"
+        }
+      ],
+      "description": "DUO is an ontology which represent data use conditions.",
+      "domain": "information",
+      "homepage": "https://github.com/EBISPOT/DUO",
+      "id": "duo",
+      "jobs": [
+        {
+          "id": "https://travis-ci.org/EBISPOT/DUO",
+          "type": "travis-ci"
+        }
+      ],
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 4.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "ontology_purl": "http://purl.obolibrary.org/obo/duo.owl",
+      "preferredPrefix": "DUO",
+      "products": [
+        {
+          "id": "duo.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/duo.owl"
+        }
+      ],
+      "repository": "https://github.com/EBISPOT/DUO",
+      "title": "Data Use Ontology",
+      "tracker": "https://github.com/EBISPOT/DUO/issues",
+      "preferred_root_term": [
+        "http://purl.obolibrary.org/obo/DUO_0000001",
+        "http://purl.obolibrary.org/obo/DUO_0000017",
+        "http://purl.obolibrary.org/obo/OBI_0000066"
+      ]
+    },
+    {
+      "activity_status": "active",
+      "build": {
+        "infallible": 1,
+        "method": "obo2owl",
+        "notes": "switch to vcs",
+        "source_url": "https://raw.githubusercontent.com/evidenceontology/evidenceontology/master/eco.obo"
+      },
+      "contact": {
+        "email": "mgiglio@som.umaryland.edu",
+        "github": "mgiglio99",
+        "label": "Michelle Giglio",
+        "orcid": "0000-0001-7628-5565"
+      },
+      "depicted_by": "https://avatars1.githubusercontent.com/u/12802432",
+      "description": "An ontology for experimental and other evidence statements.",
+      "domain": "investigations",
+      "funded_by": [
+        "http://www.nsf.gov/awardsearch/showAward?AWD_ID=1458400"
+      ],
+      "homepage": "https://github.com/evidenceontology/evidenceontology/",
+      "id": "eco",
+      "jobs": [
+        {
+          "id": "https://travis-ci.org/evidenceontology/evidenceontology",
+          "type": "travis-ci"
+        }
+      ],
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC0 1.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/cc-zero.png",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "ontology_purl": "http://purl.obolibrary.org/obo/eco.owl",
+      "preferredPrefix": "ECO",
+      "products": [
+        {
+          "id": "eco.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/eco.owl"
+        },
+        {
+          "id": "eco.obo",
+          "ontology_purl": "http://purl.obolibrary.org/obo/eco.obo"
+        }
+      ],
+      "publications": [
+        {
+          "id": "https://www.ncbi.nlm.nih.gov/pubmed/30407590",
+          "title": "ECO, the Evidence & Conclusion Ontology: community standard for evidence information."
+        },
+        {
+          "id": "https://www.ncbi.nlm.nih.gov/pubmed/25052702",
+          "title": "Standardized description of scientific evidence using the Evidence Ontology (ECO)"
+        }
+      ],
+      "repository": "https://github.com/evidenceontology/evidenceontology",
+      "title": "Evidence ontology",
+      "tracker": "https://github.com/evidenceontology/evidenceontology/issues",
+      "usages": [
+        {
+          "description": "ECO is used by the GO consortium for evidence on GO associations",
+          "examples": [
+            {
+              "description": "annotations to transmembrane transport",
+              "url": "http://amigo.geneontology.org/amigo/term/GO:0055085"
+            }
+          ],
+          "type": "annotation",
+          "user": "http://geneontology.org"
+        },
+        {
+          "description": "ECO is used by the Monarch Initiative for evidence types for disease to phenotype annotations.",
+          "examples": [
+            {
+              "description": "Parkinsonism: Characteristic neurologic anomaly resulting form degeneration of dopamine-generating cells in the substantia nigra, a region of the midbrain, characterized clinically by shaking, rigidity, slowness of movement and difficulty with walking and gait.",
+              "url": "https://monarchinitiative.org/phenotype/HP%3A0001300#disease"
+            }
+          ],
+          "publications": [
+            {
+              "id": "https://www.ncbi.nlm.nih.gov/pubmed/27899636",
+              "title": "The Monarch Initiative: an integrative data and analytic platform connecting phenotypes to genotypes across species"
+            }
+          ],
+          "type": "annotation",
+          "user": "https://monarchinitiative.org/"
+        }
+      ]
+    },
+    {
+      "activity_status": "active",
+      "contact": {
+        "email": "baeverma@jcvi.org",
+        "github": "BAevermann",
+        "label": "Brian Aevermann",
+        "orcid": "0000-0003-1346-1327"
+      },
+      "depicted_by": "https://avatars2.githubusercontent.com/u/12973154?s=200&v=4",
+      "description": "An ontology for representing treatment of disease and diagnosis and on carcinomas and other pathological entities",
+      "domain": "health",
+      "homepage": "https://github.com/OGMS/ogms",
+      "id": "ogms",
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 4.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "ontology_purl": "http://purl.obolibrary.org/obo/ogms.owl",
+      "preferredPrefix": "OGMS",
+      "products": [
+        {
+          "id": "ogms.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/ogms.owl"
+        }
+      ],
+      "repository": "https://github.com/OGMS/ogms",
+      "tags": [
+        "medicine"
+      ],
+      "taxon": {
+        "id": "NCBITaxon:9606",
+        "label": "Homo sapiens"
+      },
+      "title": "Ontology for General Medical Science",
+      "tracker": "https://github.com/OGMS/ogms/issues"
+    },
+    {
+      "activity_status": "active",
+      "build": {
+        "method": "obo2owl",
+        "notes": "SWITCH",
+        "source_url": "https://raw.githubusercontent.com/The-Sequence-Ontology/SO-Ontologies/master/so.obo"
+      },
+      "contact": {
+        "email": "keilbeck@genetics.utah.edu",
+        "github": "keilbeck",
+        "label": "Karen Eilbeck",
+        "orcid": "0000-0002-0831-6427"
+      },
+      "depicted_by": "http://sequenceontology.org/img/so_icon.png",
+      "description": "A structured controlled vocabulary for sequence annotation, for the exchange of annotation data and for the description of sequence objects in databases.",
+      "domain": "chemistry and biochemistry",
+      "homepage": "http://www.sequenceontology.org/",
+      "id": "so",
+      "layout": "ontology_detail",
+      "license": {
+        "label": "CC BY 4.0",
+        "logo": "http://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "mailing_list": "https://sourceforge.net/p/song/mailman/song-devel/",
+      "ontology_purl": "http://purl.obolibrary.org/obo/so.owl",
+      "page": "https://en.wikipedia.org/wiki/Sequence_Ontology",
+      "preferredPrefix": "SO",
+      "products": [
+        {
+          "id": "so.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/so.owl",
+          "title": "Main SO OWL release"
+        },
+        {
+          "id": "so.obo",
+          "ontology_purl": "http://purl.obolibrary.org/obo/so.obo",
+          "title": "Main SO release in OBO Format"
+        },
+        {
+          "description": "This subset includes only locatable sequence features and is designed for use in such outputs as GFF3",
+          "id": "so/subsets/SOFA.owl",
+          "ontology_purl": "http://purl.obolibrary.org/obo/so/subsets/SOFA.owl",
+          "title": "Sequence Ontology Feature Annotation (SOFA) subset (OWL)"
+        },
+        {
+          "description": "This subset includes only locatable sequence features and is designed for use in such outputs as GFF3",
+          "id": "so/subsets/SOFA.obo",
+          "ontology_purl": "http://purl.obolibrary.org/obo/so/subsets/SOFA.obo",
+          "title": "Sequence Ontology Feature Annotation (SOFA) subset (OBO Format)"
+        }
+      ],
+      "publications": [
+        {
+          "id": "https://www.ncbi.nlm.nih.gov/pubmed/15892872",
+          "title": "The Sequence Ontology: a tool for the unification of genome annotations."
+        },
+        {
+          "id": "https://www.ncbi.nlm.nih.gov/pubmed/20226267",
+          "title": "Evolution of the Sequence Ontology terms and relationships."
+        }
+      ],
+      "repository": "https://github.com/The-Sequence-Ontology/SO-Ontologies",
+      "tags": [
+        "biological sequence"
+      ],
+      "title": "Sequence types and features ontology",
+      "tracker": "https://github.com/The-Sequence-Ontology/SO-Ontologies/issues"
+    },
+    {
+      "title": "PHI-base Ontology",
+      "preferredPrefix": "PHI",
+      "description": "Pathogen-Host Interaction database Ontology used by Ensembl",
+      "homepage": null,
+      "annotations": null,
+      "oboSlims": false,
+      "preferredRootTerms": [],
+      "uri": "http://purl.obolibrary.org/obo/phi",
+      "id": "phi",
+      "mailing_list": null,
+      "ontology_purl": "file:////opt/ols/phi.obo",
+      "reasoner": "NONE",
+      "label_property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "definition_property": [
+        "http://purl.obolibrary.org/obo/IAO_0000115"
+      ],
+      "synonym_property": [
+        "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+      ],
+      "hierarchical_property": [
+        "http://purl.obolibrary.org/obo/BFO_0000050"
+      ],
+      "base_uri": [
+        "http://purl.obolibrary.org/obo/PHI_"
+      ]
+    }
+  ]
+}
